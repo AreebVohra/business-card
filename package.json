@@ -1,19 +1,29 @@
 {
   "name": "areebvohra",
-  "version": "0.0.1",
+  "version": "1.0.3",
   "description": "Areeb Vohra's Business Card",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "areebvohra": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AreebVohra/business-card.git"
   },
+  "keywords": [
+    "areebvohra"
+  ],
   "author": "Areeb Vohra",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AreebVohra/business-card/issues"
   },
-  "homepage": "https://github.com/AreebVohra/business-card#readme"
+  "homepage": "https://github.com/AreebVohra/business-card#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "colorette": "^1.0.7"
+  }
 }
